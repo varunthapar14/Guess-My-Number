@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+/* Done to bring padding to zero or all atributes to zero */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* this is targeting whole of html content */
+html {
+    font-size: 62.7%;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    /* font-family: inherit; */
+    background-color: #222;
+    color: #eee;
+}
+
+main {
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid #eee;
+}
+
+.left {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    width: 32rem;
+    font-size: 2 rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    background-color: #eee;
+    color: #333;
+    font-size: 6rem;
+    width: 15rem;
+    padding: 3rem 0rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.between {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.again {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: #222;
+    font-family: inherit;
+    padding: 2rem 3rem;
+}
+
+.input-number {
+    background: none;
+    border: 4px solid #eee;
+    font-family: inherit;
+    color: inherit;
+    font-size: 5rem;
+    padding: 2.5rem;
+    width: 25rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.check {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+.message {
+    margin-bottom: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.labelHigh-score {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.labelScore {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
